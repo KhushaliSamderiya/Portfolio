@@ -1,5 +1,221 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
 
 html{
     scroll-behavior: smooth;
 }
+
+:root {
+    --primary-color: #DBEAFE;
+    --dark-grey: grey;
+    --off-white: #F1F5F9;
+    --light-grey: #E5E7EB;
+}
+
+body {
+    font-family: 'Hina Mincho', serif;
+    margin: 0px;
+}
+
+hr {
+    margin: 2rem 0rem;
+    /* visibility: hidden; */
+}
+
+.margin-md{
+    margin: 2rem;
+}
+
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+/* .about-me{
+    display: inline-block;
+    width: 45% ;
+    
+} */
+
+.container-centered {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Links */
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: black;
+    border-radius: 1rem;
+    color: white;
+
+}
+
+.link-secondary {
+    color: black;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.link-secondary:hover{
+   color: white;
+   background-color: #adade4;
+}
+
+/* check Ben naming convention for Class names  */
+
+/* lists */
+
+.list-non-bullet {
+    list-style: none;
+    font-size: x-large;
+    text-transform: capitalize;
+
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 1rem 0.5rem;
+}
+.icon{
+    height: 20px;
+    padding-right: 0.5rem;
+}
+.navigation {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 0.5rem;
+    /* margin: 1rem; */
+    border-bottom-left-radius: 1.5rem;
+}
+
+.navigation {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: black;
+    text-transform:uppercase;
+    font-size: small;
+
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+#navbar {
+    
+    position: fixed;
+    top: -30px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+  }
+  
+
+.name {
+    padding: 2rem 0rem;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.name .name-heading {
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-shadow: 0 0 3px black, 0 0 5px #adade4; font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding-top: 2rem;
+}
+.heading{
+    font-size: xx-large;
+}
+.sub-heading{
+    font-size: x-large; 
+}
+
+.title{
+    font-size: 1.1rem;
+    line-height: 0.1rem;
+}
+
+.description{
+    margin-top: -0.5rem;
+    font-weight:500;
+}
+
+.project-title{
+    font-size: 1.5rem;
+    line-height: 0.1rem;
+}
+
+.project-description{
+    margin-top: -0.5rem;
+    font-weight: 500;
+}
+
+.section {
+    padding: 2rem 5rem;
+}
+
+/* .section h1 {
+    text-align: center;
+} */
+
+.off-section {
+    background-color: var(--off-white);
+
+}
+
+table, tr
+{
+    text-transform: capitalize;
+    font-size: large;
+}
+
+td{
+    width: 15rem;
+    height: 3rem;
+    padding: 0.5rem;
+}
+
+
+td:hover{
+    background-color: var(--light-grey);
+    border-radius: 1rem;
+}
+
+p{
+    font-size: large;
+}
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link{
+    color: white;
+}
+
